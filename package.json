@@ -1,4 +1,5 @@
 {
+  "homepage": "https:yordanosdegu.github.io/amazon-clone-project",
   "name": "amazon-clone",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.8",
     "firebase": "^11.0.2",
+    "github-pages": "^3.0.2",
     "numeral": "^2.0.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -19,10 +21,13 @@
     "react-router-dom": "^7.0.1",
     "react-scripts": "^5.0.1",
     "react-spinners": "^0.14.1",
+    "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
