@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/yordanosdegu.github.io/amazon-clone-project/static/css/main.84958600.css",
+    "main.js": "/yordanosdegu.github.io/amazon-clone-project/static/js/main.c6ae6b02.js",
+    "static/media/1004.jpg": "/yordanosdegu.github.io/amazon-clone-project/static/media/1004.5d776639e02bfeb9a819.jpg",
+    "static/media/1003.jpg": "/yordanosdegu.github.io/amazon-clone-project/static/media/1003.f93a23459644f5092347.jpg",
+    "static/media/1002.jpg": "/yordanosdegu.github.io/amazon-clone-project/static/media/1002.68247901b70432a43d7d.jpg",
+    "static/media/1001.jpg": "/yordanosdegu.github.io/amazon-clone-project/static/media/1001.e04bfb80c7a2d9176c04.jpg",
+    "index.html": "/yordanosdegu.github.io/amazon-clone-project/index.html",
+    "main.84958600.css.map": "/yordanosdegu.github.io/amazon-clone-project/static/css/main.84958600.css.map",
+    "main.c6ae6b02.js.map": "/yordanosdegu.github.io/amazon-clone-project/static/js/main.c6ae6b02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84958600.css",
+    "static/js/main.c6ae6b02.js"
+  ]
+}
