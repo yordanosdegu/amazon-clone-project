@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Landing from "./Components/Pages/Landing/Landing";
@@ -6,13 +6,13 @@ import Cart from "./Components/Pages/Cart/Cart";
 import SignUp from "./Components/Pages/Auth/SignUp";
 import Payment from "./Components/Pages/Payment/Payment";
 import Orders from "./Components/Pages/Orders/Order";
-import Result from "./Components/Pages/Results/Result"
-import ProductDetail from './Components/Pages/ProductDetail/ProductDetail'
+import Result from "./Components/Pages/Results/Result";
+import ProductDetail from "./Components/Pages/ProductDetail/ProductDetail";
 
 function Routering() {
   return (
     <div>
-      <Router>
+      <Router basename="/amazon-clone-project">
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/auth" element={<SignUp />} />
@@ -27,4 +27,4 @@ function Routering() {
   );
 }
 
-export default Routering
+export default Routering;
